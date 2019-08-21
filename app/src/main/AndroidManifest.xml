@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.latihanfragmen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Fragment_Profile"
+            android:label="@string/title_activity_fragment__profile"></activity>
+        <activity
+            android:name=".Fragment_Notifications"
+            android:label="@string/title_activity_fragment__notifications" />
+        <activity
+            android:name=".Fragment_Home"
+            android:label="@string/title_activity_fragment__home" />
+        <activity
+            android:name=".Fragment_Dashboard"
+            android:label="@string/title_activity_fragment__dashboard" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
